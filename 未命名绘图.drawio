@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1706" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1837" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="6a7d8f32e03d9370-61" value="服务器架构" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=18;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="189" width="538.75" height="511" as="geometry" />
+          <mxGeometry x="1000" y="110" width="538.75" height="511" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-59" value="" style="whiteSpace=wrap;html=1;fillColor=#EDEDED;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="599" y="98" width="280" height="1010" as="geometry" />
+          <mxGeometry x="599" y="98" width="280" height="752" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-58" value="办公网络" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=18;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="806" width="310" height="318" as="geometry" />
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-13" value="核心&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;层交换机&lt;/span&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="940" y="413.5" width="55" height="36.5" as="geometry" />
+          <mxGeometry x="880" y="334.5" width="55" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-44" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="6a7d8f32e03d9370-17" target="6a7d8f32e03d9370-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -106,9 +106,6 @@
         <mxCell id="6a7d8f32e03d9370-62" value="网络和服务器架构" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="499" y="30" width="861" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FucfDuxgneH0r0DStQZ--11" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.xenclient_synchronizer;fillColor=#CCCCCC;gradientColor=#000000;gradientDirection=south;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="819.9999999999999" y="1000" width="76" height="91" as="geometry" />
-        </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--13" value="手持端" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.pda;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="363.00000000000006" y="656.5" width="30" height="61" as="geometry" />
         </mxCell>
@@ -122,93 +119,93 @@
           <mxGeometry x="650" y="694" width="92" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--19" value="MES数据库服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1103.75" y="420" width="66.23" height="85.5" as="geometry" />
+          <mxGeometry x="1043.75" y="341" width="66.23" height="85.5" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--20" value="MES应用服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.proxy_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1109.25" y="249" width="76.5" height="90" as="geometry" />
+          <mxGeometry x="1049.25" y="170" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--22" value="数据中台&lt;div&gt;数据库服务器&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1425.37" y="407" width="66.23" height="85.5" as="geometry" />
+          <mxGeometry x="1365.37" y="328" width="66.23" height="85.5" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--23" target="FucfDuxgneH0r0DStQZ--22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--23" value="数据中台&lt;div&gt;应用服务器&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.proxy_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1420.23" y="230" width="76.5" height="90" as="geometry" />
+          <mxGeometry x="1360.23" y="151" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.666;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--20" target="FucfDuxgneH0r0DStQZ--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--26" value="备份服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.proxy_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1268.25" y="340" width="76.5" height="90" as="geometry" />
+          <mxGeometry x="1208.25" y="261" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FucfDuxgneH0r0DStQZ--26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1318.8409090909086" y="448" as="sourcePoint" />
+            <mxPoint x="1258.8409090909086" y="369" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--34" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.841;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--20" target="FucfDuxgneH0r0DStQZ--26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1208.75" y="221" as="sourcePoint" />
-            <mxPoint x="1313.75" y="532" as="targetPoint" />
+            <mxPoint x="1148.75" y="142" as="sourcePoint" />
+            <mxPoint x="1253.75" y="453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--36" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.181;exitY=0.793;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.79;entryY=0.278;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--23" target="FucfDuxgneH0r0DStQZ--26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1169.75" y="310" as="sourcePoint" />
-            <mxPoint x="1278.75" y="373" as="targetPoint" />
+            <mxPoint x="1109.75" y="231" as="sourcePoint" />
+            <mxPoint x="1218.75" y="294" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--37" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.269;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.79;entryY=0.278;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1443.75" y="311" as="sourcePoint" />
-            <mxPoint x="1338.75" y="375" as="targetPoint" />
+            <mxPoint x="1383.75" y="232" as="sourcePoint" />
+            <mxPoint x="1278.75" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--38" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1169.75" y="310" as="sourcePoint" />
-            <mxPoint x="1278.75" y="373" as="targetPoint" />
+            <mxPoint x="1109.75" y="231" as="sourcePoint" />
+            <mxPoint x="1218.75" y="294" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--40" value="数据采集服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.proxy_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1258.75" y="505.5" width="76.5" height="90" as="geometry" />
+          <mxGeometry x="1198.75" y="426.5" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--42" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.94;exitY=0.801;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--40" target="FucfDuxgneH0r0DStQZ--22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1408.75" y="630" as="sourcePoint" />
-            <mxPoint x="1458.75" y="580" as="targetPoint" />
+            <mxPoint x="1348.75" y="551" as="sourcePoint" />
+            <mxPoint x="1398.75" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--43" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=-0.047;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FucfDuxgneH0r0DStQZ--40" target="FucfDuxgneH0r0DStQZ--19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1340.75" y="632" as="sourcePoint" />
-            <mxPoint x="1468.75" y="503" as="targetPoint" />
+            <mxPoint x="1280.75" y="553" as="sourcePoint" />
+            <mxPoint x="1408.75" y="424" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--44" value="现场数据&lt;div&gt;采集服务器&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.proxy_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="280" y="290" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--45" value="KVM一体显示切换" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1608.75" y="390" width="71" height="71" as="geometry" />
+          <mxGeometry x="1548.75" y="311" width="71" height="71" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--46" value="服务器UPS" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.netscaler_sdx;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1597.75" y="232" width="100" height="47.5" as="geometry" />
+          <mxGeometry x="1537.75" y="153" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--47" value="电力供应" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1536.75" y="225.75" width="69" height="60" as="geometry" />
+          <mxGeometry x="1476.75" y="146.75" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--48" value="管理控制" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1539.75" y="392.5" width="69" height="60" as="geometry" />
+          <mxGeometry x="1479.75" y="313.5" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--49" value="存储" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.remote_office;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1608.75" y="548.25" width="92" height="41.5" as="geometry" />
+          <mxGeometry x="1548.75" y="469.25" width="92" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--50" value="存储支持" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1539.75" y="539" width="69" height="60" as="geometry" />
+          <mxGeometry x="1479.75" y="460" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FucfDuxgneH0r0DStQZ--52" value="网络交换" style="shape=doubleArrow;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="995" y="380" width="95" height="98" as="geometry" />
+          <mxGeometry x="935" y="301" width="95" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
